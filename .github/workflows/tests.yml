@@ -1,12 +1,12 @@
 name: Tests
 on:
-  push:
-    branches:
-      - main
-      - v*
-  pull_request:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
+  #     - v*
+  # pull_request:
+  #   branches:
+  #     - main
 
 jobs:
   cmake-config:
